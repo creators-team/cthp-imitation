@@ -1,30 +1,37 @@
-# Creators Team Corporate Site Imitation
-## 課題
-[Creators Teamのホームページ](https://creators-team.com/)のトップページのみをパソコンサイズで模写
+# Corporate Site Imitation Task
 
-## 画面の幅
-1080px ~ 1440px
+## Task
+Copy only the top page of [our corporate site](https://creators-team.com/).
 
-## 実装しなくてもよい部分
-- マウスカーソルの装飾
-- マウスカーソルに追従する影
-- 立体的に回転するリンク
-- 最下部のブログのスライド移動
+## Viewport
+Width: 1080px ~ 1440px (PC)
+> It would be great if you could implement smartphone-sized one as well!
 
-## フォント
-Noto Sans JP, Noto Serif JP, Rennerの3つをうまく使い分けてください。
+## Ui that doesn't need to be implemented
+- Mouse cursor decoration
+- A shadow chasing cursor
+- Rotating links
+- Blog slides (bottom of the page)
 
-Noto Sans JP, Noto Serif JPはGoogleフォントなので使い方を調べてください。
+## Fonts
+You should use fonts `Noto Sans JP`, `Noto Serif JP` and `Renner*`.
 
-Rennerは以下によって指定できます(最初は分からないかもしれませんが)
+You can easily find out how to use `Noto Sans JP` and `Noto Serif JP` because these fonts are [Google Fonts](https://fonts.google.com).
+
+`Renner*` can be used by writing as follows in your HTML file.
 
 ```HTML
 <link href="https://indestructibletype-fonthosting.github.io/renner.css">
 <style>
-  html{
-    font-family: 'futura-pt', 'Renner*', 'sans-serif';
+  .any-element{
+    font-family: 'Renner*', 'sans-serif';
   }
 </style>
 ```
-## 注意
-他のページは必要ないので、リンクになっているところのhref属性は指定しなくていいです。
+
+## After you finished
+Download a sample product of this task by running a command below in your terminal
+```sh
+$ git clone https://github.com/creators-team/cthp-imitation
+```
+or click `code` button of this page and `Download ZIP`.
