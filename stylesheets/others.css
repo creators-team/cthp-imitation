@@ -1,0 +1,16 @@
+#landscape_front, #landscape_logo, #landscape_back{
+  width: 100%;
+}
+#landscape_logo {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  padding: 0 12.4vw;
+  transform: translateY(38.5vh);
+}
+#landscape_front{
+  position: absolute;
+  top: 0;
+  left: 0;
+}

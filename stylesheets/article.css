@@ -1,0 +1,78 @@
+article{
+  font-size: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+article > *{
+  width: 100%;
+}
+@media all and (min-width: 0) {
+  article > *{
+    padding: 0 0.5rem;
+  }
+}
+@media all and (min-width: 986px) {
+  article > *{
+    padding: 0 1.5rem;
+  }
+}
+article h1{
+  font-family: 'futura-pt', 'Renner*', 'sans-serif';
+  font-weight: 500;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+}
+#about h1{
+  margin-bottom: .6em;
+}
+.article-catchcopy{
+  font-size: 2.2em;
+  line-height: 1;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1em;
+  letter-spacing: 0.05;
+  color: #4b4a4a;
+}
+.article-devider{
+  margin-bottom: 3em;
+}
+.article-devider .e-mark{
+  height: 0.2em;
+  background-color: #dfff00;
+  width: 3em;
+}
+article p{
+  line-height: 1.9;
+}
+article br{
+  line-height: 2.1;
+}
+.article-content{
+  margin-bottom: 3em;
+}
+#vision, #blog{
+  text-align: right;
+}
+#vision .article-catchcopy{
+  color: #000;
+}
+#vision .article-devider .e-mark,
+#blog   .article-devider .e-mark
+{
+  float: right;
+}
+.typing-cursor{
+  width: 2px;
+  height: 1.4em;
+  position: absolute;
+  background-color: #000;
+  display: inline-block;
+  animation: blinking 1s infinite ease;
+}
+@keyframes blinking {
+  0%{opacity: 1;}
+  60%{opacity: 0;}
+  100%{opacity: 0;}
+}
